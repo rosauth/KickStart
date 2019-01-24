@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:id="@+id/listLayout"
+        android:layout_margin="5dp"
+        android:background="@drawable/white_background"
+        android:elevation="2dp">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/listIcon"
+            android:layout_alignParentStart="true"
+            android:src="@drawable/ic_list"
+            android:contentDescription="List icon"
+            android:layout_margin="5dp"
+            android:layout_centerVertical="true"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sensor List"
+            android:layout_toEndOf="@id/listIcon"
+            android:textSize="25sp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="2dp"
+            android:layout_centerVertical="true"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_goto"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_margin="15dp"
+            android:contentDescription="Expand"/>
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:id="@+id/accelerometerLayout"
+        android:layout_margin="5dp"
+        android:background="@drawable/white_background"
+        android:elevation="2dp">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/accelerometerIcon"
+            android:layout_alignParentStart="true"
+            android:src="@drawable/ic_accelerometer"
+            android:contentDescription="Accelerometer icon"
+            android:layout_margin="5dp"
+            android:layout_centerVertical="true"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Accelerometer"
+            android:layout_toEndOf="@id/accelerometerIcon"
+            android:textSize="25sp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="2dp"
+            android:layout_centerVertical="true"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_goto"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_margin="15dp"
+            android:contentDescription="Expand"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:id="@+id/gyroscopeLayout"
+        android:layout_margin="5dp"
+        android:background="@drawable/white_background"
+        android:elevation="2dp">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/gyroscopeIcon"
+            android:layout_alignParentStart="true"
+            android:src="@drawable/ic_gyroscope"
+            android:contentDescription="Accelerometer icon"
+            android:layout_margin="5dp"
+            android:layout_centerVertical="true"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Gyroscope"
+            android:layout_toEndOf="@id/gyroscopeIcon"
+            android:textSize="25sp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="2dp"
+            android:layout_centerVertical="true"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_goto"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_margin="15dp"
+            android:contentDescription="Expand"/>
+    </RelativeLayout>
+
+ <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:id="@+id/magnetometerLayout"
+        android:layout_margin="5dp"
+        android:background="@drawable/white_background"
+        android:elevation="2dp">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/magnetometerIcon"
+            android:layout_alignParentStart="true"
+            android:src="@drawable/ic_mag"
+            android:contentDescription="Magnetometer icon"
+            android:layout_margin="5dp"
+            android:layout_centerVertical="true"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Magnetometer"
+            android:layout_toEndOf="@id/magnetometerIcon"
+            android:textSize="25sp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="2dp"
+            android:layout_centerVertical="true"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_goto"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_margin="15dp"
+            android:contentDescription="Expand"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:id="@+id/gpsLayout"
+        android:layout_margin="5dp"
+        android:background="@drawable/white_background"
+        android:elevation="2dp">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/gpsIcon"
+            android:layout_alignParentStart="true"
+            android:src="@drawable/ic_gps"
+            android:contentDescription="GPS icon"
+            android:layout_margin="5dp"
+            android:layout_centerVertical="true"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="GPS"
+            android:layout_toEndOf="@id/gpsIcon"
+            android:textSize="25sp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="2dp"
+            android:layout_centerVertical="true"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_goto"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_margin="15dp"
+            android:contentDescription="Expand"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:id="@+id/calculateLayout"
+        android:layout_margin="5dp"
+        android:background="@drawable/white_background"
+        android:elevation="2dp">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/calculateIcon"
+            android:layout_alignParentStart="true"
+            android:src="@drawable/ic_calculate"
+            android:contentDescription="Calculate icon"
+            android:layout_margin="5dp"
+            android:layout_centerVertical="true"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Calculate Distance"
+            android:ellipsize="none"
+            android:scrollHorizontally="false"
+            android:layout_toEndOf="@id/calculateIcon"
+            android:textSize="25sp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="2dp"
+            android:layout_centerVertical="true"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_goto"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_margin="15dp"
+            android:contentDescription="Expand"/>
+    </RelativeLayout>
+
+</LinearLayout>

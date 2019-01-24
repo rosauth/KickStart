@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">KickStart</string>
+    <string name="wait_message">Please wait, it may take a minute to fetch data</string>
+</resources>
